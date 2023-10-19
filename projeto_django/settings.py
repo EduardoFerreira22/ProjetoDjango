@@ -55,7 +55,7 @@ ROOT_URLCONF = 'projeto_django.urls' #rotas (nome do projeto mais o arquivo urls
 TEMPLATES = [ # oque será mostrado para o usuário
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['templates'],
+        'DIRS': ['templates'],#Diz que dentro do app irá ter um diretório chamado templates
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
